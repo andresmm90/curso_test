@@ -1,3 +1,5 @@
+//https://gitlab.com/juanestebanj/curso-testing-con-marlon-zayro/-/tree/master/chai-json-schema-ajv
+
 const chai = require("chai");
 chai.use(require("chai-json-schema-ajv"));
 const expect = chai.expect;

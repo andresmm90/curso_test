@@ -51,7 +51,7 @@ describe("yo como usuario de primaria deseo calcular la suma de 2 números", () 
 
     const result = await suma();
 
-    expect(result).to.be.equal(5);
+    expect(result).to.be.equal(6);
   });
 
   it("se suman los valores de 2 + 3 y se espera un valor de 5", async () => {
