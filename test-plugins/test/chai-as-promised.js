@@ -1,5 +1,5 @@
 //https://github.com/DanielPratech/curso_testing/tree/master
-/* import { expect } from "chai";
+/* import { expect } from "chai"; */
 import { promiseSumFunction } from "../archivos/promise";
 import { promiseSumFunction2 } from "../archivos/promise";
 
@@ -47,4 +47,3 @@ describe("Promise testing", () => {
     ]);
   });
 });
- */
