@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test:coverage": "nyc --require @babel/register --reporter=html  npm test"
   },
   "author": "",
   "license": "ISC",
@@ -30,8 +31,11 @@
     "graphql-tools": "^7.0.5",
     "http-server-mock": "^0.2.1",
     "mocha": "^8.4.0",
+    "nyc": "^15.1.0",
     "sinon": "^10.0.0",
-    "sinon-chai": "^3.6.0"
+    "sinon-chai": "^3.6.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-deep-match": "^1.2.1"
   },
   "description": ""
 }

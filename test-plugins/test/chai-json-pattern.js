@@ -8,7 +8,7 @@ chai.use(chaiJsonPattern);
 describe("Validar elementos de un json con el plugin chai-json-pattern", function () {
   // definimos el comportamiento
   it("Se valida que la edad este entre un rango de 0 a 30 años", function () {
-    v1 = { edad: 29 };
+    const v1 = { edad: 29 };
     expect(v1).to.matchPattern(`{
             "edad": Number AND range(0, 30),
         }`);
