@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1622901031211" clover="3.2.0">
-  <project timestamp="1622901031211" name="All files">
+<coverage generated="1622907486506" clover="3.2.0">
+  <project timestamp="1622907486506" name="All files">
     <metrics statements="23" coveredstatements="23" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4" elements="31" coveredelements="31" complexity="0" loc="23" ncloc="23" packages="1" files="1" classes="1"/>
     <file name="tests.ts" path="D:\Estudio\DESARROLLO\PRUEBASUNITARIAS\BDDEXAMPLES\test-jest-ts\src\files\tests.ts">
       <metrics statements="23" coveredstatements="23" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>

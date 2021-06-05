@@ -20,5 +20,10 @@
   "dependencies": {
     "express": "^4.17.1"
   },
-  "jest": {}
+  "jest": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test"
+    }
+  }
 }

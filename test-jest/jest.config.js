@@ -16,6 +16,11 @@ module.exports = {
   // Automatically clear mock calls and instances between every test
   clearMocks: true,
 
+  testMatch: [
+    "**/__tests__/**/*.+(ts|tsx|js)",
+    "**/?(*.)+(steps|spec|test).+(ts|tsx|js)",
+  ],
+
   // Indicates whether the coverage information should be collected while executing the test
   collectCoverage: true,
 
