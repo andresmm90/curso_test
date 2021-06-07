@@ -11,7 +11,7 @@ describe("Dado que tengo una funciones para realizar diferentes operaciones", ()
   });
 
   it("deseo garantizar que se llamen la operación de restar", async () => {
-    const spyResta = jest.spyOn(test, "funcionResta");
+    const spyResta = jest.spyOn(Tests.prototype, "funcionResta");
     await test.funcionOperaciones(1, 2);
     expect(spyResta).toBeCalled();
   });
